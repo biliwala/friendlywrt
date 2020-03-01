@@ -10,7 +10,11 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=dnsmasq
 PKG_UPSTREAM_VERSION:=2.80
 PKG_VERSION:=$(subst test,~~test,$(subst rc,~rc,$(PKG_UPSTREAM_VERSION)))
+<<<<<<< HEAD
 PKG_RELEASE:=15
+=======
+PKG_RELEASE:=16.1
+>>>>>>> c2efc973d5... dnsmasq: fix dnssec+ntp chicken-and-egg workaround (FS#2574)
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_UPSTREAM_VERSION).tar.xz
 PKG_SOURCE_URL:=http://thekelleys.org.uk/dnsmasq
