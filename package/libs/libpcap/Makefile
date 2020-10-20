@@ -9,11 +9,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libpcap
 PKG_VERSION:=1.9.1
-<<<<<<< HEAD
-PKG_RELEASE:=1
-=======
 PKG_RELEASE:=2.1
->>>>>>> 429e4490c4... libpcap: fix library packaging issues
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=http://www.us.tcpdump.org/release/ \
